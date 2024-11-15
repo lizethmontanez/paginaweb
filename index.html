@@ -6,12 +6,16 @@
     <title>adoptaperritos</title>
 </head>
 <body>
+    
     <!-- Cabecera de mi página web-->
     <header>
-        <h1> La historia de Nana y por qué debes adoptar perritos</h1>
-        <img src="Images/foto.jpeg" alt="Foto de Nanita">
+        <h1 style="color: rgb(13, 166, 74)"> La historia de Nana y por qué debes adoptar perritos</h1>
+        <img src="Images/foto.jpeg" alt="Foto de Nanita" width="250px">
+        
+        <!--Tabla de contenidos-->
         <nav>
             <ul>
+                <!--usar el # del id generado en la sección a la que quiero dirigirme-->
                 <li><a href="#Generalidades">Quién es Nanita</a></li>
                 <li><a href="#características">Qué hace especial a Nana</a></li>
                 <li><a href="#adoptar">Por qué adoptar es mejor</a></li>
@@ -20,26 +24,29 @@
         </nav>
     </header>
 
+    <!--cuerpo del código-->
     <main>
     <section id="Generalidades">
-        <p> Nana es una perrita de 9 años, le encanta comer jitomate y pollito. Le gusta salir al patio a observar todo lo que pasa, y podría pasar horas ahí si no se insolara.<br> 
-            Nana fue adoptada por una adolescente de 16 años, que dificilmente sabía lo que le esperaba, en todos los sentidos: gastos, ir al veterinario en la madgrugada, tratar de entender qué le duele porque no lo puede decir con palabras; pero también le esperaba el amor más puro que iba a tener en su vida.
+        <!--se usa el <u> para subrayada, <b> para bold, y <span> para darle formato a una porción específica de un texto-->
+        <p> Nana es una perrita de 9 años, le encanta comer jitomate y <i>pollito.</i> Le gusta salir al patio a observar todo lo que pasa, y podría pasar horas ahí si no se insolara.<br> 
+            Nana fue adoptada por una adolescente de 16 años, que dificilmente sabía lo que le esperaba, en todos los sentidos: gastos, ir al veterinario en la madgrugada, tratar de entender qué le duele porque no lo puede decir con palabras; pero también le esperaba <span style="color: red; font-size: 18px;">el amor más puro que iba a tener en su vida.</span>
             Nana tiene alergias al pasto y a la tierra por lo que no puede salir a pasear a cualquier entorno, sino a alguno que no tenga tanto de ésto; también tiene un padecimiento en su columna que le causa un dolor intenso especialmente en tiempos de frío; llegar a esos diagnósticos nos costó mucho, tal vez más a ella que a mí, por lo que cuidar de ella ha sido además de una bendición, una tarea no tan sencilla. 
             <br>Nana ha sido el primer ser que me ha hecho sentirme responsable de alguien, pero también el primer ser que me enseñó el amor incondicional.</p>
     </section>
+
     <section id="características">
         <!--lista desordenada es ul, ordenada sería ol-->
         <h2>Qué hace especial a Nana</h2>
         <ul>
             <li>Le gusta mucho dormir</li>
             <li>Su lugar favorito es el patio de mi casa</li>
-            <li>Tiene complejo de perro chihuahua, o sea que se siente invensible</li>
+            <li> <u>Tiene complejo de perro chihuahua</u>, o sea que se siente invensible</li>
             <li>Probablemente me cambiaría por un pedazo de pollo</li>
             <li>Es una perrita enojona, se indigna cuando no consigue lo que quiere</li>
             <li>Salta como caballo cuando se emociona por lo que va a comer</li>
         </ul>
     </section>
-    </main>
+
     <section id="adoptar">
         <h2>Por qué adoptar es mejor</h2>
         <p>Un amor incondicional: Los perros adoptados suelen ser especialmente agradecidos. Te darán todo su amor y lealtad, convirtiéndose en tu mejor amigo. 
@@ -48,14 +55,17 @@
             <br>Un propósito: Al adoptar, estás salvando una vida y brindando un hogar a un animal que lo necesita. Es una acción que te hará sentir bien contigo mismo y con el mundo.
             <br>Adoptar un perro es como encontrar un tesoro escondido. Es una oportunidad de experimentar un amor puro y desinteresado. Es una aventura que te llevará a conocer a un ser maravilloso y a crear recuerdos inolvidables juntos.</p>
     </section>
+    </main>
 
     <section id="links">
+    <div style="text-align: center;">
         <footer>
         <h3>Asociaciones que promueven la adopcion de mascotas</h3>
         <a href="https://www.pedigreeadoptame.mx/" target="_blank">Pedigree adoptame</a> <br>
         <a href="https://bestfriends.org/es" target="_blank">Best Friends Animal Society</a>
         <!--pie de pagina-->
         </footer>
+    </div>
     </section>
 </body>
 </html>
